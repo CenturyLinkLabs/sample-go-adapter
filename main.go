@@ -1,4 +1,4 @@
-package main // import "github.com/CenturyLinkLabs/panamax-marathon-adapter"
+package main // import "github.com/CenturyLinkLabs/sample-go-adapter"
 
 import (
 	"log"
