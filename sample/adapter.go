@@ -1,4 +1,4 @@
-package main
+package sample
 
 import (
 	"github.com/CenturyLinkLabs/pmxadapter"
@@ -43,4 +43,9 @@ func (a *SampleAdapter) UpdateService(s *pmxadapter.Service) *pmxadapter.Error {
 // Implementation of the PanamaxAdapter DestroyService interface
 func (a *SampleAdapter) DestroyService(id string) *pmxadapter.Error {
 	return nil
+}
+
+// GetMetadata returns metadata for the adapter.
+func (a *SampleAdapter) GetMetadata() pmxadapter.Metadata {
+	return pmxadapter.Metadata{Type: "Sample", Version: "0.1"}
 }
