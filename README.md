@@ -1,4 +1,8 @@
 # sample-go-adapter
+## NOTE
+
+This repo is no longer being maintained. Users are welcome to fork it, but we make no warranty of its functionality.
+
 
 This is a reference implementation using the pmxadapter Go Library. It is used to help bootstrap Panamax Remote Adapter development in Go.
 
